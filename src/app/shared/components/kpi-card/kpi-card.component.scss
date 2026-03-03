@@ -1,66 +1,67 @@
 .kpi-card {
-    background-color: var(--color-white);
-    border-radius: 12px;
-    box-shadow: var(--shadow-card);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 0.5rem;
-    text-align: center;
-    height: 100%;
+	background-color: var(--color-white);
+	border-radius: 12px;
+	box-shadow: var(--shadow-card);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 8px;
+	text-align: center;
+	height: 100%;
+	max-width: calc(100% - 2px);
 }
 
 .kpi-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.5rem;
-    font-size: 1.25rem;
+	width: 48px;
+	height: 48px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom:2px;
+	font-size: 20px;
 
-    &--blue {
-        background-color: var(--color-blue-bg);
-        color: var(--primary-color);
-    }
+	&--blue {
+		background-color: var(--color-blue-bg);
+		color: var(--primary-color);
+	}
 
-    &--yellow {
-        background-color: var(--color-yellow-bg);
-        color: var(--color-yellow);
-    }
+	&--yellow {
+		background-color: var(--color-yellow-bg);
+		color: var(--color-yellow);
+}
 
-    &--green {
-        background-color: var(--color-green-bg);
-        color: var(--color-green);
-    }
+	&--green {
+		background-color: var(--color-green-bg);
+		color: var(--color-green);
+	}
 }
 
 .kpi-name {
-    color: var(--color-black);
-    margin-bottom: 0.25rem;
-    min-height: 2rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+	color: var(--color-black);
+	margin-bottom: 4px;
+	min-height: 32px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 }
 
 .kpi-value {
-    font-size: 20px;
-    font-weight: 700;
+	font-size: 20px;
+	font-weight: 700;
 
-    &--green {
-        color: var(--color-green);
-    }
+	&--green {
+		color: var(--color-green);
+	}
 
-    &--orange {
-        color: var(--color-orange);
-    }
+	&--orange {
+		color: var(--color-orange);
+	}
 
-    &--red {
-        color: var(--color-red);
-    }
+	&--red {
+		color: var(--color-red);
+	}
 }
