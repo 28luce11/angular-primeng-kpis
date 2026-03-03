@@ -1,0 +1,7 @@
+<div class="kpi-card">
+  <div class="kpi-icon" [class]="'kpi-icon--' + kpi().iconBg">
+    <i [class]="kpi().icon"></i>
+  </div>
+  <span class="kpi-name text-lg">{{ kpi().name }}</span>
+  <span class="kpi-value text-[22px]" [class]="'kpi-value--' + kpi().valueColor">{{ kpi().value }}</span>
+</div>
